@@ -10,6 +10,14 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require jquery-1.11.0.min
+//= require modernizr-2.6.2.min
+//= require waypoints.min
+//= require respond.min
+//= require owl.carousel.min
+//= require front
+//= require jquery.scrollTo.min
+
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
