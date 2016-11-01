@@ -11,6 +11,7 @@
 // about supported directives.
 //
 //= require testimoni
+//= require html5shiv
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap-sprockets
