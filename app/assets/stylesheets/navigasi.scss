@@ -1,11 +1,11 @@
 $bgDefault      : #c49cde !important;
 $bgHighlight    : #663399 !important;
-$colDefault     : #fff !important;
+$colDefault     : #ffffff !important;
 // $colHighlight       : #ffbbbc;
-$colHighlight   : #669ae1 !important;
+$colHighlight   : #ffffff !important;
 .navbar-default {
   background-color: $bgDefault;
-  border-color: $bgHighlight;
+  // border-color: $bgHighlight;
   border-radius: 0px;
 
   .navbar-brand {
@@ -14,7 +14,7 @@ $colHighlight   : #669ae1 !important;
     &:hover, &:focus {
       color: $colHighlight; }}
   .navbar-text {
-    font-family: "Dancing Script OT" !important;
+    // font-family: "Dancing Script OT" !important;
     color: $colDefault; }
   .navbar-nav {
     > li {
@@ -23,7 +23,8 @@ $colHighlight   : #669ae1 !important;
         padding-bottom: 16px !important;
         color: $colDefault ;
         &:hover,  &:focus {
-          color: $colHighlight; }}}
+          color: $colHighlight;
+          background-color: $bgHighlight; }}}
     > .active {
       > a, > a:hover, > a:focus {
         color: $colHighlight;

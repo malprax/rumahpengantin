@@ -1,16 +1,44 @@
+
 .promo{
-  padding-top: 10em;
-  padding-bottom: 10em;
-  .icon-left{
-      float:left;
-      padding: 12px 25px 60px 15px;
-      color:#4ECABE;
+  background-color: #f6f8f8;
+  line-height: 1.7;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  color: #204D74;
+  text-align: center;
+  
+  h1{
+    padding-bottom: 40px;
+    color: #blue;
+    font-size: 30px;
   }
-  .text{
-      text-align:left;
-      padding:0 0 0 15px;
+  h3{
+    font-size: 16px;
   }
-  .text h4{
-      padding-bottom:5px;
+  p{
+    padding-bottom: 6px;
   }
+
 }
+.glyphicon-lg{font-size:3em}
+.blockquote-box{
+  // border-right:5px solid #E6E6E6;
+  // border-bottom:3px solid #E6E6E6;
+  margin-bottom:25px;
+  padding-top: 8px;
+  padding-left: 15px;
+  line-height: 2.1;
+  font-size: 14px;
+
+}
+.blockquote-box .square{width:100px;min-height:40px;margin-right:22px;text-align:center!important;background-color:#E6E6E6;padding:20px 0}
+.blockquote-box.blockquote-primary{border-color:#357EBD}
+.blockquote-box.blockquote-primary .square{background-color:#428BCA;color:#FFF}
+.blockquote-box.blockquote-success{border-color:#4CAE4C}
+.blockquote-box.blockquote-success .square{background-color:#5CB85C;color:#FFF}
+.blockquote-box.blockquote-info{border-color:#46B8DA}
+.blockquote-box.blockquote-info .square{background-color:#5BC0DE;color:#FFF}
+.blockquote-box.blockquote-warning{border-color:#EEA236}
+.blockquote-box.blockquote-warning .square{background-color:#F0AD4E;color:#FFF}
+.blockquote-box.blockquote-danger{border-color:#D43F3A}
+.blockquote-box.blockquote-danger .square{background-color:#D9534F;color:#FFF}
