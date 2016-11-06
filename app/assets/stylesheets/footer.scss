@@ -24,11 +24,13 @@
  // }
 
  footer{
+   background: rgba(196, 156, 222, 0.3);// , image-url('motif7.jpeg');
+   background-repeat: no-repeat, repeat-x;
    .center{
      text-align: center
    }
    padding: 50px 0 50px 0;
-   background: #c49cde left top repeat;
+  //  background: #c49cde left top repeat;
   //  border-top: 1px #ffcc00 solid;
    -moz-box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset;
    -webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset;
