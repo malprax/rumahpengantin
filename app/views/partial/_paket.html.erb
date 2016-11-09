@@ -1,62 +1,59 @@
-    <div class="container">
-        <div class="row flat">
-            <div class="col-lg-3 col-md-3 col-xs-6">
-                <ul class="plan plan1">
-                    <li class="plan-name">
-                        Paket Satuan
-                    </li>
-                    <li class="plan-price">
-                        <strong>$29</strong> / month
-                    </li>
-                    <li>
-                        <strong>5GB</strong> Storage
-                    </li>
-                    <li>
-                        <strong>1GB</strong> RAM
-                    </li>
-                    <li>
-                        <strong>400GB</strong> Bandwidth
-                    </li>
-                    <li>
-                        <strong>10</strong> Email Address
-                    </li>
-                    <li>
-                        <strong>Forum</strong> Support
-                    </li>
-                    <li class="plan-action">
-                        <a href="#" class="btn btn-lg">Detail</a>
-                    </li>
-                </ul>
-            </div>
+<div class="container">
+    <div class="row flat">
+        <div class="col-lg-3 col-md-3 col-xs-6">
+            <ul class="plan plan1">
+                <li class="plan-name">
+                    Paket Satuan
+                </li>
+                <li class="plan-price">
+                    <strong>Gaun Pengantin</strong>
+                </li>
+                <li>
+                    <strong>Rias Pengantin</strong>
+                </li>
+                <li>
+                    <strong>Dekorasi Kamar</strong>
+                </li>
 
-            <div class="col-lg-3 col-md-3 col-xs-6">
-                <ul class="plan plan2 featured">
-                    <li class="plan-name">
-                      Paket Hemat
-                    </li>
-                    <li class="plan-price">
-                        <strong>$39</strong> / month
-                    </li>
-                    <li>
-                        <strong>5GB</strong> Storage
-                    </li>
-                    <li>
-                        <strong>1GB</strong> RAM
-                    </li>
-                    <li>
-                        <strong>400GB</strong> Bandwidth
-                    </li>
-                    <li>
-                        <strong>10</strong> Email Address
-                    </li>
-                    <li>
-                        <strong>Forum</strong> Support
-                    </li>
-                    <li class="plan-action">
-                     <a href="#" class="btn btn-lg">Detail</a>
-                 </li>
-             </ul>
-         </div>
+                <li class="plan-action">
+                    <%= link_to 'Detail', paket_satuan_pages_path, remote: true , class: "btn btn-lg" %>
+                    <!-- <a href="#" class="btn btn-lg">Detail</a> -->
+                </li>
+            </ul>
+            <div id="paket-modal" class="modal fade"></div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-xs-6">
+            <ul class="plan plan2 featured">
+                <li class="plan-name">
+                  Paket Hemat
+                </li>
+                <li class="plan-price">
+                    <strong>Gaun Pengantin</strong>
+                </li>
+                <li>
+                    <strong>Rias Pengantin</strong>
+                </li>
+                <li>
+                    <strong>Tirai Hijab</strong>
+                </li>
+                <li>
+                    <strong>Dekorasi Kamar</strong>
+                </li>
+                <li>
+                    <strong>Tabere/Lamming</strong>
+                </li>
+                <li>
+                    <strong>Pelaminan</strong>
+                </li>
+
+                <li class="plan-action">
+                    <%= link_to 'Detail', paket_hemat_pages_path, remote: true , class: "btn btn-lg" %>
+                    <!-- <a href="#" class="btn btn-lg">Detail</a> -->
+                </li>
+             </li>
+            </ul>
+        </div>
 
          <div class="col-lg-3 col-md-3 col-xs-6">
             <ul class="plan plan3">
@@ -64,57 +61,33 @@
                     Paket Komplit
                 </li>
                 <li class="plan-price">
-                    <strong>$199</strong> / month
+                    <strong>Harga Mulai Rp 7.000.000 - Rp 10.000.000</strong>
                 </li>
-                <li>
-                    <strong>50GB</strong> Storage
-                </li>
-                <li>
-                    <strong>8GB</strong> RAM
-                </li>
-                <li>
-                    <strong>1024GB</strong> Bandwidth
-                </li>
-                <li>
-                    <strong>Unlimited</strong> Email Address
-                </li>
-                <li>
-                    <strong>Forum</strong> Support
-                </li>
+
                 <li class="plan-action">
-                 <a href="#" class="btn btn-lg">Detail</a>
-             </li>
-         </ul>
-     </div>
+                    <%= link_to 'Detail', paket_komplit_pages_path, remote: true , class: "btn btn-lg" %>
+                    <!-- <a href="#" class="btn btn-lg">Detail</a> -->
+                </li>
+            </ul>
+         </div>
 
-     <div class="col-lg-3 col-md-3 col-xs-6">
-        <ul class="plan plan4">
-            <li class="plan-name">
-                Paket Walimatul Urs Organizer(WO)
-            </li>
-            <li class="plan-price">
-                <strong>$999</strong> / month
-            </li>
-            <li>
-                <strong>50GB</strong> Storage
-            </li>
-            <li>
-                <strong>8GB</strong> RAM
-            </li>
-            <li>
-                <strong>1024GB</strong> Bandwidth
-            </li>
-            <li>
-                <strong>Unlimited</strong> Email Address
-            </li>
-            <li>
-                <strong>Forum</strong> Support
-            </li>
-            <li class="plan-action">
-             <a href="#" class="btn btn-lg">Detail</a>
-         </li>
-     </ul>
- </div>
-</div>
+         <div class="col-lg-3 col-md-3 col-xs-6">
+            <ul class="plan plan4">
+                <li class="plan-name">
+                    Paket Walimatul Urs Organizer(WO)
+                </li>
+                <li class="plan-price">
+                    <strong>Acara Rumah : Rp 15.000.000 - Rp 25.000.000</strong>
+                </li>
+                <li class="plan-price">
+                    <strong>Acara Gedung : Rp 25.000.000 - Rp 45.000.000</strong>
+                </li>
 
+                <li class="plan-action">
+                    <%= link_to 'Detail', paket_walimatul_pages_path, remote: true , class: "btn btn-lg" %>
+                    <!-- <a href="#" class="btn btn-lg">Detail</a> -->
+                </li>
+            </ul>
+        </div>
+    </div>
 </div> <!-- /container -->

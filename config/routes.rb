@@ -6,6 +6,14 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'pages#index'
+  resources :pages do
+    collection do
+      get "paket_hemat" => "pages#paket_hemat", as: "paket_hemat"
+      get "paket_komplit" => "pages#paket_komplit", as: "paket_komplit"
+      get "paket_satuan" => "pages#paket_satuan", as: "paket_satuan"
+      get "paket_walimatul" => "pages#paket_walimatul", as: "paket_walimatul"
+    end
+  end
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
