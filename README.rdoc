@@ -26,3 +26,11 @@ Things you may want to cover:
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2sid!4v1478675089184!6m8!1m7!1sK8Xmyn-XCLLHozXB0O3AhQ!2m2!1d-5.181664684620851!2d119.4875844055643!3f62.659278896361116!4f-2.0414147453699627!5f1.8987378668456252" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+https://www.google.co.id/maps/@-5.1816647,119.4875844,3a,39y,62.66h,87.96t/data=!3m9!1e1!3m7!1sK8Xmyn-XCLLHozXB0O3AhQ!2e0!7i13312!8i6656!9m2!1b1!2i51
+
+
+Hai Dears Crafter and friends, This time Arsouvenir want to share tutorial how to making another beauty brooch.. please check it out.. and happy watching... 
