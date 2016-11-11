@@ -4,9 +4,42 @@ body {
     line-height: 1.42857143;
     color: #333333;
     background-color: #fff;
-    padding-top: 10em;
-    // .logo{
-    //   vertical-align: middle !important;
-    //   padding-bottom: 6em !important;
-    // }
+  }
+
+.jumbotron {
+  background: image-url('background1.png');
+  height: 750px;
+  margin: 0px;
+  background-color: #ffa947;
+  background-position: center;
+  text-align: center;
+  h1 {
+    text-transform: uppercase;
+    color: #fff !important;
+    text-shadow: 0px 2px 3px #555 !important;
+  }
+  h2 {
+    color: #fff;
+    text-shadow: 0px 2px 3px #000;
+    margin-bottom: 80px;
+  }
+  .container {
+    padding: 80px 0px;
+  }
+}
+
+.filter {
+  background-color: rgba(215,226,241,0.9);
+  padding: 20px 30px 10px 30px;
+  border-radius: 10px;
+  margin-top:30px;
+}
+
+.btn{
+  border-radius:0px;
+}
+
+.judul_paket{
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
