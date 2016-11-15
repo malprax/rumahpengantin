@@ -1,27 +1,39 @@
 $bgDefault      : #c49cde !important;
 $bgHighlight    : #663399 !important;
-$colDefault     : #ffffff !important;
+$colDefault     : #fff;
 // $colHighlight       : #ffbbbc;
-$colHighlight   : #ffffff !important;
+$colHighlight   : #fff !important;
 .navbar-default {
+  border: 0px solid transparent !important;
   background-color: $bgDefault;
   // border-color: $bgHighlight;
   border-radius: 0px;
+  navbar-header{
+    // margin-bottom: 20px !important;
+    // margin-right: -30px !important;
+    // margin-left: -90px !important;
+    .navbar-brand {
+      float: none !important;
+      color: $colDefault;
+      padding-bottom: 2em !important;
+      padding-left: 10px !important;
+      // margin-left: 0px;
+      &:hover, &:focus {
+        color: $colHighlight; }
+      }
 
-  .navbar-brand {
-    color: $colDefault;
-    padding-bottom: 2em !important;
-    &:hover, &:focus {
-      color: $colHighlight; }}
+  }
+
+
   .navbar-text {
     // font-family: "Dancing Script OT" !important;
-    color: $colDefault; }
+    color: $colDefault !important; }
   .navbar-nav {
     > li {
       > a {
         padding-top: 16px !important;
         padding-bottom: 16px !important;
-        color: $colDefault ;
+        color: #fff !important ;
         &:hover,  &:focus {
           color: $colHighlight;
           background-color: $bgHighlight; }}}
@@ -32,13 +44,15 @@ $colHighlight   : #ffffff !important;
     > .open {
       > a, > a:hover, > a:focus {
         color: $colHighlight;
-        background-color: $bgHighlight; }}}
+        background-color: $bgHighlight; }}
+    }
   .navbar-toggle {
-    border-color: $bgHighlight;
+    // border-color: $bgHighlight;
     &:hover, &:focus {
       background-color: $bgHighlight; }
     .icon-bar {
-      background-color: $colDefault; }}
+      background-color: #fff; }}
+      padding-right: 16px;
   .navbar-collapse,
   .navbar-form {
     border-color: $colDefault; }
@@ -46,11 +60,61 @@ $colHighlight   : #ffffff !important;
     color: $colDefault;
     &:hover {
       color: $colHighlight; }}}
-@media (max-width: 767px) {
+
+  .navbar-right{
+    margin-right: -30px !important;
+  }
+
+@media (min-width: 400px) {
+  .navbar-header{
+    margin-right: -30px !important;
+    margin-left: -40px !important;
+  }
+  .navbar {
+    // margin: 10px -30px -25px 0 !important;
+    // padding-top: 16px;
+    // padding-bottom: 16px;
+  }
   .navbar-default .navbar-nav .open .dropdown-menu {
     > li > a {
       padding-top: 16px !important;
       padding-bottom: 16px !important;
+      color: $colDefault;
+      background-color: #transparent;
+      &:hover, &:focus {
+        color: $colHighlight; }}
+    > .active {
+      > a, > a:hover, > a:focus, {
+        color: $colHighlight;
+        background-color: $bgHighlight; }}}
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    // margin: 10px -30px -25px 0 !important;
+
+  }
+  .navbar-header{
+    padding-left: -20px !important;
+    padding-right: -40px !important;
+    .navbar-brand {
+      float: none !important;
+      color: $colDefault;
+      padding-bottom: 2em !important;
+      padding-left: 0px !important;
+      // margin-left: 0px;
+      &:hover, &:focus {
+        color: $colHighlight; }
+      }
+
+  }
+  .navbar-nav {
+    margin: 10px -30px -25px 0 !important;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu {
+    > li > a {
+      padding-top: 16px !important;
+      padding-bottom: 10px !important;
       color: $colDefault;
       background-color: #transparent;
       &:hover, &:focus {

@@ -24,7 +24,8 @@
  // }
 
  footer{
-   background: rgba(196, 156, 222, 0.3);// , image-url('motif7.jpeg');
+  //  background: #3a1994;
+   background: rgba(196, 156, 222, 0.6);
    background-repeat: no-repeat, repeat-x;
    .center{
      text-align: center
@@ -98,3 +99,11 @@
 		top:-20px;
 		width: 100%;
 	}
+
+
+.copyright{
+  text-align: center;
+  color: #000;
+  font-weight: lighter;
+  padding: 64px 0 30px 0;
+}
