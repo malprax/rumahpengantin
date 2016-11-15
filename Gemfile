@@ -53,3 +53,6 @@ gem 'bootstrap-sass', '~> 3.3.6'
 
 #font awesome
 gem "font-awesome-rails"
+
+#for enable all platforms on heroku
+gem 'rails_12factor'
